@@ -5,9 +5,7 @@ class MyDocument extends Document {
   render() {
     return (
       <Html lang="en">
-        <Head>
-            <meta name="keywords" content='nextjs, afpa, learning'/>
-        </Head>
+        <Head/>
         <body>
           <Main />
           <NextScript />

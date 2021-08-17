@@ -6,7 +6,6 @@ const PostItem = ({post}) => {
         <Link href="/post/[id]" as={`/post/${post.id}`}>
             <a className={stylesPost.card}>
                 <h3>{post.title} &rarr;</h3>
-                <p>{post.body}</p>
             </a>
         </Link>
     )
